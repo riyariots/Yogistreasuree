@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yogi's Rencana</title>
+    <link rel="stylesheet" href="rencana.css">
+    <link rel="icon" href="favicon.ico" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dongle&family=Gasoek+One&family=Lilita+One&family=Pixelify+Sans:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="nav-links">
+            <a href="index.html"><button class="home">HOME</button></a>
+            <div class="dropdown-pendahuluan">
+                <a href="abstract.html" class="dropbtn-pendahuluan">PENDAHULUAN</a>
+                <div class="dropdown-pendahuluan-content">
+                    <a href="abstract.html#abstract">ABSTRACT</a>
+                    <a href="abstract.html#latar-belakang">LATAR BELAKANG</a>
+                    <a href="abstract.html#tujuan">TUJUAN</a>
+                    <a href="abstract.html#manfaat">MANFAAT</a>
+                </div>
+            </div>
+            <div class="dropdown-rencana">
+                <a href="rencana.html" class="dropbtn-rencana">RENCANA KEGIATAN</a>
+                <div class="dropdown-rencana-content">
+                    <a href="rencana.html#rencana-produk">RENCANA PRODUKSI</a>
+                    <a href="rencana.html#rencana-promosi">RENCANA PROMOSI</a>
+                    <a href="rencana.html#rencana-booth">RENCANA BOOTH</a>
+                </div>
+            </div>
+            <div class="dropdown-hasil">
+                <a href="hasil.html" class="dropbtn-hasil">HASIL KEGIATAN</a>
+                <div class="dropdown-hasil-content">
+                    <a href="hasil.html#pelaksanaan">LAPORAN PELAKSANAAN</a>
+                    <a href="hasil.html#keuangan">LAPORAN KEUANGAN</a>
+                    <a href="hasil.html#penjualan">STATISTIK PENJUALAN</a>
+                    <a href="hasil.html#ppkn">LAPORAN PPKN</a>
+                    <a href="hasil.html#video">VIDEO PROSES PEMBUATAN</a>
+                    <a href="hasil.html#agama">REFLEKSI AGAMA</a>
+                </div>
+            </div>
+            <div class="dropdown-penutup">
+                <a href="penutup.html" class="dropbtn-penutup">PENUTUP</a>
+                <div class="dropdown-penutup-content">
+                    <a href="penutup.html#kesimpulan">KESIMPULAN</a>
+                    <a href="penutup.html#Saran">SARAN</a>
+                </div>
+            </div>
+            <a href="dafpus.html">DAFTAR PUSTAKA</a>
+            <a href="lampiran.html">LAMPIRAN</a>
+            <a href="ppt.html">PPT</a>
+        </ul>
+    </div>
+
+    <div class="title">
+        <h1 class="YOGIS">YOGI'S</h1>
+        <div class="clouds">
+            <img src="cloud.png" alt="cloud" class="cloud">
+            <h1 class="PENDAHULUAN">RENCANA</h1>
+            <img src="cloud.png" alt="cloud" class="cloud">
+        </div>
+    </div>
+
+    <marquee class="moving">
+        Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's Treasure - Yogi's
+        Treasure - Yogi's Treasure
+    </marquee>
+
+    <section id="rencana-produk">
+        <div class="judul">
+            <h1 class="produk"> Rencana Produk </hi>
+        </div>
+        <div class="product-container">
+            <!-- Product 1: blind bag -->
+            <div class="product-card">
+                <div class="product-title">BLIND BAG</div>
+                <div class="product-image product-blind-bag"><img src="image-removebg-preview (70).png" alt="foto">
+                </div>
+                <button class="read-more" data-product="Blind-Bag">READ MORE</button>
+            </div>
+
+            <!-- Product 2: Totebag -->
+            <div class="product-card">
+                <div class="product-title">TOTEBAG</div>
+                <div class="product-image product-totebag"><img src="image-removebg-preview (69).png" alt="foto"></div>
+                <button class="read-more" data-product="Totebag">READ MORE</button>
+            </div>
+
+            <!-- Product 3: Plushie -->
+            <div class="product-card">
+                <div class="product-title">PLUSHIE YOGI</div>
+                <div class="product-image product-plushie"><img src="image-removebg-preview (68).png" alt="foto"></div>
+                <div class="top-pick">BEST SELLER</div>
+                <button class="read-more" data-product="Plushie">READ MORE</button>
+            </div>
+
+            <!-- Product 4: Sticker Sheet -->
+            <div class="product-card">
+                <div class="product-title">Voyage Stamps</div>
+                <div class="product-image product-sticker"><img src="image-removebg-preview (71).png" alt="foto"></div>
+                <button class="read-more" data-product="Voyage-Stamps">READ MORE</button>
+            </div>
+
+            <!-- Product 5: Mini Bricks -->
+            <div class="product-card">
+                <div class="product-title">Mini Bricks</div>
+                <div class="product-image product-bricks"><img src="image-removebg-preview (72).png" alt="foto"></div>
+                <button class="read-more" data-product="Mini-Bricks">READ MORE</button>
+            </div>
+
+            <!-- Product 6: Charm Beadlets -->
+            <div class="product-card">
+                <div class="product-title">Charm Beadlets</div>
+                <div class="product-image product-charm"><img src="image-removebg-preview (73).png" alt="foto"></div>
+                <button class="read-more" data-product="Charm-Beadlets">READ MORE</button>
+            </div>
+
+            <!-- Product 7: Photobooth -->
+            <div class="product-card">
+                <div class="product-title">Photobooth</div>
+                <div class="product-image product-photobooth"><img src="image-removebg-preview (74).png" alt="foto">
+                </div>
+                <button class="read-more" data-product="Photobooth">READ MORE</button>
+            </div>
+
+            <!-- Product 8: Lotus Sunset Candle -->
+            <div class="product-card">
+                <div class="product-title">Sunset Candle</div>
+                <div class="product-image product-photobooth"><img src="image-removebg-preview (75).png" alt="foto">
+                </div>
+                <button class="read-more" data-product="Lotus-Sunset-Candle">READ MORE</button>
+            </div>
+
+            <!-- Product 9: Nasi Goreng -->
+            <div class="product-card">
+                <div class="product-title">Nasi Goreng</div>
+                <div class="product-image product-nasi-goreng"><img src="image-removebg-preview (76).png" alt="foto">
+                </div>
+                <button class="read-more" data-product="Nasi-Goreng">READ MORE</button>
+            </div>
+
+            <!-- Product 10: Es Cendol -->
+            <div class="product-card">
+                <div class="product-title">Es Cendol</div>
+                <div class="product-image product-es-cendol"><img src="image-removebg-preview (77).png" alt="foto">
+                </div>
+                <button class="read-more" data-product="Es-Cendol">READ MORE</button>
+            </div>
+
+            <!-- Product 9: Golden Bites -->
+            <div class="product-card">
+                <div class="product-title">Golden Bites</div>
+                <div class="product-image product-golden-bites"><img src="image-removebg-preview (78).png" alt="foto">
+                </div>
+                <button class="read-more" data-product="Golden-Bites">READ MORE</button>
+            </div>
+        </div>
+
+        <div class="popup-container" id="popup">
+            <div class="popup-content">
+                <span class="close-button" id="closePopup">&times;</span>
+                <div id="popup-product-image" class="popup-product-image"></div>
+                <h2 id="popup-title">Product Details</h2>
+                <p id="popup-message">Learn more about this product.</p>
+                <div class="popup-actions">
+                    <button class="popup-close" id="closePopupBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rencana-promosi">
+        <div class="judul">
+            <h1 class="promosi"> Rencana Promosi </hi>
+        </div>
+
+        <div class="container">
+            <div class="timeline">
+                <!-- 2019 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Promosi Story Instagram</div>
+                        <div class="timeline-text">
+                            <p>
+                                Kelompok kami secara aktif mengunggah foto dan video promosi mengenai katalog produk
+                                yang jelas dan menarik di akun Instagram @yogitreasure.id. Setiap produk yang dijual,
+                                mulai dari makanan dan minuman hingga produk buatan tangan seperti Plushie Yogi, Charms
+                                Beadlets, dan Hidden Treasure, mendapatkan sorotan khusus. Kami memanfaatkan fitur
+                                Instagram Story untuk membagikan foto atau video yang hanya tersedia selama 24 jam,
+                                sehingga konten ini dapat menarik perhatian audiens dengan lebih efektif. Fitur ini
+                                muncul di bagian atas beranda Instagram, memudahkan akses bagi pengikut kami. Untuk
+                                menarik perhatian audiens, kami menambahkan elemen visual yang estetis dan menggunakan
+                                keterangan yang informatif. Selain itu, kami juga memanfaatkan format video pendek yang
+                                disertai lagu-lagu populer agar konten lebih menarik dan menghibur.
+                                <br>
+                                <br>
+                                Tidak hanya menampilkan produk jadi, kami juga merekam proses pembuatan serta cara
+                                penggunaan produk untuk memberikan transparansi dan daya tarik lebih bagi pelanggan.
+                                Dengan menunjukkan tahapan produksi, mulai dari pemilihan bahan hingga produk siap
+                                digunakan, kami berharap dapat meningkatkan kepercayaan dan ketertarikan calon pembeli
+                                terhadap produk kami. Dalam proses pembuatan video, kami menerapkan strategi pemasaran
+                                berbasis tren terkini dengan menghadirkan konten promosi berkonsep Jedag Jedug, yang
+                                tengah populer di kalangan anak muda. Pendekatan ini membuat promosi kami lebih relevan,
+                                dinamis, dan menghibur, sehingga mampu menarik perhatian target audiens secara lebih
+                                efektif.
+                                <br>
+                                <br>
+                                Selama periode pre-order yang berlangsung selama dua minggu, kami berkomitmen untuk
+                                mengunggah story setiap hari guna menjaga konsistensi promosi serta meningkatkan
+                                interaksi dengan pelanggan. Dengan menonjolkan daya tarik dan keunikan produk dalam
+                                berbagai format konten, kami berhasil meningkatkan keterlibatan pelanggan, menarik lebih
+                                banyak calon pembeli, serta membangun antusiasme dan kepercayaan terhadap produk yang
+                                kami tawarkan. Kami percaya bahwa strategi ini akan membantu memperkuat citra toko kami
+                                dan menciptakan hubungan yang lebih erat dengan pelanggan.
+                            </p>
+                        </div>
+                        <img src="Yogi insta.png" alt="2019 Product" class="timeline-image">
+                    </div>
+                </div>
+
+                <!-- 2018 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Promosi Feeds & Reels Instagram</div>
+                        <div class="timeline-text">
+                            <p>
+                                Selain memanfaatkan Instagram Story untuk promosi harian, kami juga secara aktif
+                                menggunakan Instagram Feeds dan Reels sebagai bagian dari strategi pemasaran yang lebih
+                                luas dan berkelanjutan. Reels memiliki keunggulan dalam menjangkau audiens yang lebih
+                                besar berkat algoritma Instagram yang memungkinkan konten muncul di halaman eksplorasi
+                                pengguna, termasuk mereka yang belum mengikuti akun kami. Sementara itu, Instagram Feeds
+                                kami gunakan untuk menampilkan katalog produk secara lebih rapi dan terstruktur,
+                                sehingga pelanggan dapat dengan mudah melihat berbagai pilihan yang tersedia. Kami juga
+                                mengunggah poster dan katalog produk di Feeds untuk memberikan informasi visual yang
+                                menarik dan jelas mengenai setiap produk yang kami tawarkan. Selain itu, kami
+                                memanfaatkan Feeds untuk mengunggah informasi penting, seperti detail produk dan harga,
+                                guna meningkatkan kepercayaan calon pembeli.
+                                <br>
+                                <br>
+                                Untuk memaksimalkan potensi ini, kami menyesuaikan setiap konten dengan tren yang sedang
+                                viral, baik dari segi konsep, musik latar, maupun gaya penyampaian, agar lebih menarik
+                                dan meningkatkan visibilitas toko kami. Dalam pembuatan video, kami menggabungkan
+                                elemen-elemen visual yang menarik dengan narasi singkat yang informatif. Kami juga
+                                menggunakan bahasa campuran antara Bahasa Indonesia dan Bahasa Inggris untuk memperluas
+                                jangkauan audiens, terutama anak muda yang akrab dengan kedua bahasa tersebut. Selain
+                                mempromosikan produk secara langsung, kami juga membuat konten behind-the-scenes yang
+                                menampilkan proses pembuatan produk serta persiapan bazar. Strategi ini membuat promosi
+                                terasa lebih personal dan autentik.
+                            </p>
+                        </div>
+                        <img src="image-removebg-preview (79).png" alt="foto">
+                    </div>
+                </div>
+
+                <!-- 2017 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Promosi Katalog/Poster</div>
+                        <div class="timeline-text">
+                            <p>
+                                Untuk memperluas jangkauan promosi, kami menyusun katalog dan poster produk yang
+                                disebarluaskan secara fisik dan digital. Poster fisik ditempelkan di beberapa lokasi
+                                strategis di sekolah, seperti papan pengumuman di depan aula dan mading lorong sekolah,
+                                sehingga mudah diakses oleh siswa dan staf. Strategi ini memungkinkan informasi mengenai
+                                produk kami tersampaikan secara langsung kepada target audiens di lingkungan sekolah.
+                                <br>
+                                <br>
+                                Selain promosi fisik, kami juga memanfaatkan platform digital dengan mengunggah poster
+                                dalam format gambar dan video melalui Instagram dan TikTok. Video promosi disajikan
+                                dalam bentuk Reels dan Stories, sehingga audiens dapat memperoleh gambaran lebih jelas
+                                tentang produk yang kami tawarkan. Kami juga mendistribusikan katalog digital melalui
+                                grup WhatsApp keluarga dan teman-teman, serta diunggah ke Status WhatsApp, guna
+                                menjangkau lebih banyak calon pembeli. Dengan kombinasi strategi promosi fisik dan
+                                digital, kami berhasil meningkatkan kesadaran dan minat audiens terhadap produk kami.
+                            </p>
+                        </div>
+                        <img src="Yogi feeds.jpg" alt="2017 Product" class="timeline-image-poster">
+                    </div>
+                </div>
+
+                <!-- 2016-2015 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Promosi Video Tiktok</div>
+                        <div class="timeline-text">
+                            <p>
+                                TikTok merupakan platform media sosial berbasis video pendek dengan algoritma unik yang
+                                memungkinkan konten menjangkau audiens lebih luas melalui halaman For You Page (FYP).
+                                Dengan mayoritas penggunanya berasal dari kalangan anak muda, TikTok menjadi sarana
+                                efektif untuk membangun kesadaran merek dan menarik calon pelanggan melalui konten
+                                kreatif dan interaktif. Kami memanfaatkan berbagai tren viral, seperti lagu populer,
+                                filter unik, serta takarir yang menarik untuk meningkatkan daya tarik promosi.
+                                <br>
+                                <br>
+                                Sebagai bagian dari strategi pemasaran, kami secara aktif membagikan video promosi yang
+                                mengikuti tren terkini agar lebih relevan dengan pengguna. Berbagai format video kami
+                                manfaatkan, termasuk Autonomous Sensory Meridian Response (ASMR) untuk produk makanan,
+                                unboxing produk buatan tangan, serta konten kreatif lainnya yang memperkenalkan produk
+                                dengan cara menarik. Selain itu, kami mengoptimalkan algoritma FYP untuk meningkatkan
+                                eksposur secara alami, sehingga video kami dapat menjangkau lebih banyak orang.
+                                <br>
+                                <br>
+                                Dalam setiap unggahan, kami menonjolkan keunikan produk, terutama Plushie Yogi sebagai
+                                produk unggulan, dengan pendekatan bercerita yang menarik dan mudah diingat. Berkat
+                                strategi ini, jumlah tayangan video meningkat pesat, disertai dengan peningkatan
+                                interaksi berupa like, komentar positif, serta ketertarikan calon pembeli. Dengan konten
+                                yang kreatif dan interaktif, promosi melalui TikTok terbukti efektif dalam meningkatkan
+                                antusiasme pelanggan serta keterlibatan yang lebih tinggi.
+                            </p>
+                        </div>
+                        <blockquote class="tiktok-embed"
+                            cite="https://www.tiktok.com/@yogistreasure.id/video/7457076384079318278"
+                            data-video-id="7457076384079318278" style="max-width: 400px;min-width: 200px;">
+                            <section> <a target="_blank" title="@yogistreasure.id"
+                                    href="https://www.tiktok.com/@yogistreasure.id?refer=embed">@yogistreasure.id</a>
+                                support a small bussiness 👋 <a title="asmr" target="_blank"
+                                    href="https://www.tiktok.com/tag/asmr?refer=embed">#asmr</a> <a title="asmrvideo"
+                                    target="_blank"
+                                    href="https://www.tiktok.com/tag/asmrvideo?refer=embed">#asmrvideo</a> <a
+                                    title="packaging" target="_blank"
+                                    href="https://www.tiktok.com/tag/packaging?refer=embed">#packaging</a> <a
+                                    title="packing" target="_blank"
+                                    href="https://www.tiktok.com/tag/packing?refer=embed">#packing</a> <a
+                                    title="bussiness" target="_blank"
+                                    href="https://www.tiktok.com/tag/bussiness?refer=embed">#bussiness</a> <a
+                                    title="smallbussiness" target="_blank"
+                                    href="https://www.tiktok.com/tag/smallbussiness?refer=embed">#smallbussiness</a> <a
+                                    title="satisfying" target="_blank"
+                                    href="https://www.tiktok.com/tag/satisfying?refer=embed">#satisfying</a> <a
+                                    title="satisfyingvideo" target="_blank"
+                                    href="https://www.tiktok.com/tag/satisfyingvideo?refer=embed">#satisfyingvideo</a>
+                                <a target="_blank" title="♬ original sound  - Yogi&#39;s Treasure ᯓ★"
+                                    href="https://www.tiktok.com/music/original-sound-Yogi's-Treasure-ᯓ★-7457076420747397893?refer=embed">♬
+                                    original sound - Yogi&#39;s Treasure ᯓ★</a>
+                            </section>
+                        </blockquote>
+                        <script async src="https://www.tiktok.com/embed.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rencana-booth">
+        <div class="booth">
+            <div class="judul">
+                <h1 class="judul-booth"> Rencana Booth </hi>
+            </div>
+            <p>
+                Pada masa awal persiapan bazar, kami sudah memiliki banyak ide mengenai perencanaan booth yang akan
+                digunakan. Ketika diminta untuk membuat perencanaan dan sketsa, kami segera menerapkan berbagai ide
+                tersebut. Kami membuat beberapa versi desain booth dan, setelah melalui banyak uji coba, akhirnya
+                memilih salah satu desain yang paling sesuai. Desain ini kemudian harus disetujui oleh guru kesenian
+                kami melalui sesi konsultasi yang dilakukan saat presentasi perencanaan. Presentasi ini juga menjadi
+                bagian dari penilaian akhir kesenian kami, di mana kami diminta untuk menyusun rencana lengkap untuk
+                semua produk yang akan ditampilkan, terutama tote bag yang secara khusus dibuat untuk proyek kesenian.
+                Setelah berkonsultasi, terdapat beberapa hal yang perlu direvisi, seperti jumlah barang yang
+                ditampilkan, tata letak, dan ukuran meja. Melalui beberapa kali revisi dan konsultasi, kami akhirnya
+                mendapatkan desain dan layout yang final meskipun menghadapi berbagai hambatan dalam prosesnya.
+                Setelah desain selesai, kami langsung membeli barang-barang untuk dipajang dan meminjam beberapa
+                perlengkapan dari keluarga. Ketika semua barang tiba, kami membuat mockup di rumah untuk memastikan
+                bahwa produk yang kami jual dapat muat dengan baik sesuai dengan desain yang telah direncanakan. Pada
+                sehari sebelum bazar, kami memiliki waktu penuh untuk fokus pada persiapan ILP. Hari itu kami menyiapkan
+                display booth, membuat dekorasi, dan menentukan posisi produk-produk kami di booth. Proses ini
+                melibatkan pengecatan dekorasi di lapangan serta pengaturan barang-barang agar booth terlihat menarik
+                dan terorganisasi dengan baik.
+                <br>
+                <br>
+                Namun, setelah seluruh persiapan selesai dan area booth telah ditata dengan rapi, kami menghadapi
+                kendala yang tidak terduga. Beberapa bagian lapangan terkena cipratan cat dari proses pengecatan
+                dekorasi, sehingga kami diminta untuk membersihkan area tersebut sebelum meninggalkan lokasi. Untuk
+                memastikan kebersihan lapangan dan menghindari potensi kerusakan, kami segera mengambil tindakan dengan
+                membersihkan cat yang menempel menggunakan alat yang tersedia. Seorang karyawan turut membantu kami
+                dengan menyediakan thinner, yang memungkinkan proses pembersihan berlangsung lebih efektif. Meskipun
+                menghadapi tantangan ini di luar dugaan, kami tetap berupaya menyelesaikan tugas dengan baik dan
+                memastikan area tersebut kembali bersih serta siap digunakan sebelum acara bazar dimulai.
+            </p>
+            <img src="booth.jpg" alt="foto">
+        </div>
+    </section>
+
+    <script>
+        // fade in effect in body
+        gsap.to('body', { opacity: 1, duration: 1 });
+
+        // navbar animation
+        gsap.from('.navbar', { y: -50, opacity: 0, duration: 1, ease: 'power2.out' });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        gsap.utils.toArray('.content > div').forEach(section => {
+            gsap.from(section, {
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top 80%",
+                    toggleActions: "play none none reverse"
+                },
+                opacity: 0,
+                y: 50,
+                duration: 1
+            });
+        });
+
+        gsap.from('.YOGIS', {
+            scale: 0,
+            duration: 1,
+            ease: 'bounce.out'
+        });
+
+        gsap.from('.PENDAHULUAN', {
+            scale: 0,
+            duration: 1,
+            ease: 'bounce.out',
+            delay: 0.5
+        });
+
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 2
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <script>
+        // Product images for popups
+        const productImages = {
+            'Blind-Bag': 'image-removebg-preview (70).png',
+            'Totebag': 'image-removebg-preview (69).png',
+            'Plushie': 'image-removebg-preview (68).png',
+            'Voyage-Stamps': 'image-removebg-preview (71).png',
+            'Mini-Bricks': 'image-removebg-preview (72).png',
+            'Charm-Beadlets': 'image-removebg-preview (73).png',
+            'Photobooth': 'image-removebg-preview (74).png',
+            'Lotus-Sunset-Candle': 'image-removebg-preview (75).png',
+            'Nasi-Goreng': 'image-removebg-preview (76).png',
+            'Es-Cendol': 'image-removebg-preview (77).png',
+            'Golden-Bites': 'image-removebg-preview (78).png'
+        };
+
+        // Product descriptions
+        const productDescriptions = {
+            'Blind-Bag': 'Untuk menonjolkan tema utama toko, "Yogi’s Treasure", kami mengembangkan gantungan kunci dengan desain khusus yang mencerminkan karakteristik toko. Awalnya, desainnya menampilkan karakter internal seperti Tara, Yogi, Beni, Anton, dan Tania, namun kemudian kami beralih ke desain berbentuk ID card karena dianggap lebih unik dan menarik dengan warna-warna cerah. Untuk menambah daya tarik, gantungan kunci dikemas dalam konsep blind bag yang memberikan elemen kejutan bagi pelanggan. Detail seperti pengait berbentuk bintang dan stiker orisinal juga ditambahkan untuk memperkuat identitas merek. Setelah uji cetak untuk memastikan kualitas, kami memesan 30 buah sebagai stok awal. Namun, tingginya permintaan saat pre-order membuat kami menambah produksi sebanyak 30 buah lagi, sehingga totalnya menjadi 60 buah.',
+            'Totebag': 'Tote Bag Nusantara adalah produk kolaborasi PPKn dan Kesenian yang menampilkan karakter khas toko dengan latar keberagaman budaya Indonesia. Dengan desain kartun retro berwarna cerah dan tulisan "Rukun Karo Liane", produk ini melambangkan keharmonisan dalam perbedaan. Kantong batik bermotif mega mendung dari Cirebon di bagian belakang menambah nilai budaya sekaligus menjadi ciri khas yang unik. Karakter Yogi’s Treasure yang mengenakan pakaian adat dari berbagai daerah turut mempromosikan toleransi dan rasa bangga terhadap kekayaan budaya Indonesia. Meski sempat mengalami kendala mencari vendor, kelompok kami berhasil menyelesaikan tote bag tepat waktu untuk bazar, menciptakan produk yang estetis dan bermakna.',
+            'Plushie': 'Untuk menonjolkan maskot toko, Yogi, kami memutuskan menjual Plushie Yogi sebagai produk utama dengan pemasaran intensif. Produk ini mengusung kerajinan tangan crochet yang sedang populer, dengan target utama siswi SMP Santa Ursula Jakarta yang menunjukkan minat tinggi. Dari target 50 buah, kami hanya mampu memproduksi 42 karena keterbatasan waktu dan tenaga kerja. Pada awalnya, harga ditetapkan Rp 35.000,00, namun setelah evaluasi, kami menaikkannya menjadi Rp 45.000,00, yang terbukti efektif meningkatkan keuntungan. Demi menjaga ketersediaan stok saat penjualan langsung, kami menutup pre-order lebih awal. Plushie Yogi pun menjadi produk unggulan yang menarik banyak perhatian dan terjual habis dalam waktu singkat.',
+            'Voyage-Stamps': 'Stiker Voyage Stamps merupakan salah satu produk yang diminati siswi karena menawarkan potensi keuntungan yang besar dengan biaya produksi yang rendah. Kami memproduksi dan menjual 50 pcs stiker seharga Rp 10.000 per pcs, tetap menjaga kualitas dengan menggunakan bahan waterproof agar lebih tahan lama. Desain stiker ini terinspirasi dari bentuk stempel bertema postcard yang menampilkan karakter Yogi’s Treasure berpetualang di berbagai pulau Indonesia, merepresentasikan keanekaragaman budaya Nusantara. Di balik desainnya, Voyage Stamps juga menyampaikan pesan persatuan melalui ilustrasi keakraban antar karakter. Dengan konsep menarik dan kualitas terjamin, produk ini berhasil menjadi salah satu unggulan dalam katalog kami.',
+            'Mini-Bricks': 'Produk mini bricks yang kami jual merupakan produk resell yang dibeli dari toko online. Kami yakin produk ini akan digemari anak-anak karena proses penyusunannya yang menyenangkan dan mampu merangsang kreativitas. Selain sebagai hiburan, mini bricks juga memiliki nilai edukatif dengan membantu meningkatkan kemampuan motorik, intelektual, dan imajinatif anak. Toko kami menyediakan lima variasi menarik, yaitu sapi, bebek, beruang, burung, dan penguin, sehingga pelanggan memiliki banyak pilihan. Dengan stok awal sebanyak 30 buah, produk ini menjadi salah satu yang paling cepat habis. Sebanyak 15 buah dialokasikan untuk penjualan langsung (on the spot), sementara sisanya diperuntukkan untuk pesanan pre-order. Sistem pre-order ini memungkinkan pelanggan mengamankan varian yang diinginkan sebelum kehabisan stok, memberikan pengalaman berbelanja yang lebih terjamin dan memuaskan.',
+            'Charm-Beadlets': 'Gelang kerajinan tangan menjadi salah satu produk unggulan yang terinspirasi dari anggota kelompok kami, Fathia, yang sering membuat gelang sendiri. Ide ini disetujui bersama, meskipun proses perangkaiannya memakan waktu cukup lama. Namun, semua upaya tersebut terbayar dengan hasil penjualan yang memuaskan. Kendala sempat muncul karena keterbatasan tali gelang, sehingga kuota penjualan awal tidak dapat terpenuhi sepenuhnya. Pada akhirnya, kami berhasil memproduksi dan menjual sebanyak 35 pcs dengan lima variasi warna yang berbeda. Dengan banyaknya siswi di sekolah yang memiliki gaya berpakaian fashionable, gelang-gelang ini diharapkan dapat menjadi aksesori pelengkap yang mempercantik penampilan mereka di luar sekolah.',
+            'Photobooth': 'Kami menyediakan layanan photobooth khusus bagi pengunjung yang ingin berfoto dengan latar belakang yang telah didekorasi, menciptakan momen yang berkesan. Dengan kuota sebanyak 20 sesi, setiap sesi memberikan kesempatan untuk menghasilkan foto yang unik dan penuh kenangan. Namun, kami menyadari bahwa persiapan dekorasi kurang maksimal, sehingga latar belakang photobooth terlihat kurang meriah dan kurang menarik perhatian, membuatnya kurang mencolok dibandingkan booth lainnya. Evaluasi ini menjadi pembelajaran bagi kami untuk meningkatkan kualitas dekorasi di kesempatan mendatang agar pengalaman pengunjung semakin menyenangkan dan booth kami dapat menarik lebih banyak minat.',
+            'Lotus-Sunset-Candle': 'Lilin aroma terapi hasil bioteknologi kelompok kami dikemas dalam wadah berbentuk bunga yang menarik perhatian pelanggan. Selain desain kemasannya yang spesial, lilin ini juga menawarkan aroma lavender yang menyegarkan. Percobaan pertama dilakukan di rumah Aubrey dan langsung membuahkan hasil yang memuaskan. Namun, dua minggu sebelum penjualan, kami menghadapi kendala ketika lilin yang awalnya terlihat baik-baik saja mulai muncul banyak bubble setelah dingin. Untuk mengatasi masalah ini, kami menggunakan hotgun milik salah satu anggota kelompok untuk memanaskan kembali lilin, memperbaiki tampilannya agar lebih mulus. Puji Tuhan, cara ini berhasil menyelamatkan seluruh lilin, memastikan setiap pelanggan mendapatkan produk yang memenuhi ekspektasi mereka.',
+            'Nasi-Goreng': 'Kami juga menawarkan nasi goreng, kuliner favorit masyarakat Indonesia, yang disajikan dengan bumbu menggoda selera dan aroma yang menggiurkan. Nasi goreng ini dilengkapi dengan topping telur, potongan sosis, dan bawang goreng yang menambah cita rasa gurih. Selain mengenyangkan, menu ini juga cocok dinikmati sebagai pilihan makan siang yang praktis. Awalnya, kami yakin nasi goreng akan cepat laku karena dijual saat jam makan siang, namun penjualannya kurang memuaskan. Salah satu penyebabnya adalah kesalahan dalam menentukan jumlah yang dijual, yaitu 75 porsi, yang seharusnya dipertimbangkan lebih matang. Meski hasilnya belum sesuai harapan, pengalaman ini menjadi pelajaran berharga bagi kami untuk membuat keputusan yang lebih tepat di masa mendatang.',
+            'Es-Cendol': 'Kami juga bangga menyediakan minuman segar khas Indonesia, yaitu es cendol, yang menjadi pelengkap sempurna di cuaca panas. Perpaduan manisnya gula merah, legitnya santan, dan tambahan es memberikan sensasi dingin yang menyegarkan. Cendol ini kami buat menggunakan bahan-bahan sederhana dan berkualitas seperti susu, santan, dan gula merah, memastikan cita rasa autentik yang lezat. Selain itu, penyajian yang praktis membuat pelanggan dapat menikmati minuman ini dengan mudah di tengah keramaian bazar. Dengan harga jual Rp 10.000 per gelas, kami berhasil menjual sebanyak 94 gelas, mendapatkan respons positif dari pelanggan yang menikmati kesegaran minuman tradisional ini.',
+            'Golden-Bites': 'Makanan ringan ini menarik perhatian banyak orang karena sudah siap saji dan langsung tersedia di meja tanpa perlu menunggu proses pembuatan. Meskipun risol ini merupakan produk resell, kami yakin dapat laku terjual karena rasanya yang lezat dan isinya yang melimpah. Namun, keuntungan yang diperoleh dari produk ini relatif kecil karena harga jual yang tetap terjangkau. Hal ini terbukti saat bazar, di mana risol kami sangat diminati, terutama saat waktu istirahat, dengan banyaknya ulasan positif yang diterima, menunjukkan kepuasan pelanggan terhadap produk kami. Awalnya, kami hanya menyediakan 80 pcs, tetapi karena tingginya jumlah pesanan pre-order, kami menambah stok untuk penjualan langsung hingga total menjadi 140 pcs.'
+        };
+
+        // Read more functionality
+        document.querySelectorAll('.read-more').forEach(button => {
+            button.addEventListener('click', function () {
+                const product = this.getAttribute('data-product');
+                const popupTitle = document.getElementById('popup-title');
+                const popupMessage = document.getElementById('popup-message');
+                const popupProductImage = document.getElementById('popup-product-image');
+                const popup = document.getElementById('popup');
+
+                // Set popup content
+                popupTitle.textContent = product;
+                popupMessage.textContent = productDescriptions[product];
+
+                // Add the image to the popup using the productImages object
+                popupProductImage.innerHTML = `<img src="${productImages[product]}" alt="${product}">`;
+
+                // Show popup
+                popup.classList.add('show');
+            });
+        });
+
+        // Close popup functions
+        function closePopup() {
+            document.getElementById('popup').classList.remove('show');
+        }
+
+        // Close popup when X is clicked
+        document.getElementById('closePopup').addEventListener('click', closePopup);
+
+        // Close popup when close button is clicked
+        document.getElementById('closePopupBtn').addEventListener('click', closePopup);
+
+        // Close popup when clicking outside
+        document.getElementById('popup').addEventListener('click', function (event) {
+            if (event.target === this) {
+                closePopup();
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Intersection Observer to detect when timeline items come into view
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                        // Once item is shown, no need to observe it anymore
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.2, // Show when 20% of item is visible
+                rootMargin: '0px 0px -100px 0px' // Adjust as needed
+            });
+
+            // Get all timeline items and observe them
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            timelineItems.forEach(item => {
+                observer.observe(item);
+            });
+
+            // Add scrolling animation effect for the timeline line
+            const timelineLine = document.querySelector('.timeline::after');
+            window.addEventListener('scroll', () => {
+                const scrollPercentage = (window.scrollY / (document.body.scrollHeight - window.innerHeight));
+                const drawHeight = Math.min(scrollPercentage * 1.5, 1) * 100;
+                document.documentElement.style.setProperty('--line-height', drawHeight + '%');
+            });
+        });
+    </script>
+    <script>
+        // Function to check if an element is in viewport
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.8 &&
+                rect.bottom >= 0
+            );
+        }
+
+        // Function to animate the booth section
+        function animateBooth() {
+            const boothSection = document.getElementById('rencana-booth');
+            const boothElement = boothSection.querySelector('.booth');
+            const boothTitle = boothSection.querySelector('.judul-booth');
+            const boothText = boothSection.querySelector('p');
+
+            if (isInViewport(boothSection)) {
+                // Animate the booth container
+                boothElement.classList.add('booth-animate');
+
+                // Animate the title with a delay
+                setTimeout(() => {
+                    boothTitle.classList.add('title-animate');
+                }, 300);
+
+                // Animate the text paragraph with a delay
+                setTimeout(() => {
+                    boothText.classList.add('text-animate');
+                }, 600);
+            }
+        }
+
+        // Initialize animations when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set initial states
+            const boothElement = document.querySelector('.booth');
+            const boothTitle = document.querySelector('.judul-booth');
+            const boothText = document.querySelector('.booth p');
+
+            // Set initial states for animation
+            boothElement.classList.add('booth-initial');
+            boothTitle.classList.add('title-initial');
+            boothText.classList.add('text-initial');
+
+            // Trigger animations on load and scroll
+            animateBooth();
+            window.addEventListener('scroll', animateBooth);
+        });
+    </script>
+</body>
+
+</html>
